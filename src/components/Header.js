@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import userIcon from "../assets/icons/user.png";
+import userIcon from "../../assets/icons/user.png";
 const Header = () => (
     <header>
         <h1>abhiXweb</h1>
