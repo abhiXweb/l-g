@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { ResurantData } from '../config';
+import { ResurantData1 as RD } from '../config';
 const ResurantList = ({ name, cuisines, cloudinaryImageId, avgRating }) => {
     return (
         <div className="card">
@@ -15,7 +15,7 @@ const ResurantList = ({ name, cuisines, cloudinaryImageId, avgRating }) => {
 const Content = () => (
     <div className="resturantList">
         {
-            ResurantData.map((resturant) => {
+            RD.map((resturant) => {
                 return <ResurantList {...resturant.data} key={resturant.data.id} />
             })
         }
