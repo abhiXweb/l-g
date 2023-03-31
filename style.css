@@ -36,6 +36,43 @@ header {
 }
 
 .searchBtn {
-  margin-left: 10px;
+  background-color: #234687;
+  border: 1px solid #234687;
+  color: #fff;
+  cursor: pointer;
   padding: 10px 20px;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+.card.shimmerCard {
+  border-color: #8080801f;
+}
+
+.shimmerImg {
+  height: 200px;
+  background: #8080801f;
+}
+
+.shimmerTitle {
+  background-color: #8080801f;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.shimmerCuisines {
+  background-color: #8080801f;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.shimmerStars {
+  background-color: #8080801f;
+  height: 7px;
+  margin-top: 5px;
 }
